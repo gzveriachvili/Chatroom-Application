@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>iChat</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id = "#page_element" class="tab_three">
+  <img src="img/icon.png" id="small_icon">
+  <header class="header">
+    <strong> iChat </strong>
+  </header>
+  <main class="content_3">
+    <p>Create your own chatroom:</p>
+  </main>
+</div>
+
+<div id = "#page_element" class="create_chat">
+    <label for="name"></label>
+    <input type="text" id="name" name="name" placeholder="Name/ topic..." title = "Enter a name for your chat.">
+    <br>
+    <label for="number"></label>
+    <input type="text" id="number" name="number" placeholder="Number of users..." title = "Specify the maximum allowed number of users, that you want your chatroom to have.">
+    <br>
+    <input type="button" id="small_button" value="Create">
+    <input type="button" id="small_button_back" value="Back">
+    <br>
+    <warning id = "warning"></warning>
+</div>
+
+<script src="js/jquery-1.11.0.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/Tab3.js"></script>
+
+</body>
+</html>

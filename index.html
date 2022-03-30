@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>iChat</title>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id = "#page_element" class="tab_one">
+		<img src="img/icon.png" id="small_icon">
+		<header class="header">
+			<strong> iChat </strong>
+		</header>
+		<main class="content">
+			<p>Welcome to iChat, a chatroom website where</p>
+			<p>you can meet new people with same interests</p>
+		</main>
+
+		<div id = "user_entry">
+			<img src="img/profile.png" id="profile"><br>
+			<label for="username"></label><input type="text" id="username" name="firstname" placeholder="Username..." title = "The username, that you enter will be visible to other members of the chat."><br>
+			<label for="pwd"></label><input type="password" id="password" name="pwd" placeholder="Password..." title = "The password must consist of a capital letter, number and a symbol."><br>
+		 	<input type="submit" value="Log in" id = "log_in"/><br>
+	 	</div>
+
+	 	<warning id = "warning"></warning>
+
+	</div>
+
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="js/Tab1.js"></script>
+</body>
+</html>
